@@ -7,16 +7,15 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {CounterProvider} from "@/provider/counter-provider";
 
 import App from './App';
-import RickAndMortyLayout from '@/layouts/rick-and-morty-layout';
 import BlogLayout from '@/layouts/blog-layout';
 import RootLayout from "@/layouts/root-layout";
 import CounterLayout from "@/layouts/counter-layout";
 import CounterPage from "@/pages/counter/counter-page";
 import BlogPage from "@/pages/blog/blog-layout";
-import RickAndMortyPage from "@/pages/rick-and-morty/rick-and-morty-layout";
+import RickAndMortyPage from "@/pages/rick-and-morty/rick-and-morty-page";
 import CharactersPage from "@/pages/rick-and-morty/characters-page";
 import CharacterDetailPage from "@/pages/rick-and-morty/character-detail-page";
-import {Outlet} from "react-router";
+import RickAndMortyLayout from "@/layouts/rick-and-morty-layout";
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
@@ -30,7 +29,7 @@ createRoot(document.getElementById('root')!).render(
                             <Route path={"rick-and-morty"} element={<RickAndMortyLayout/>}>
                                 <Route index element={<RickAndMortyPage/>} />
 
-                                <Route path={"characters"} element={<Outlet />}>
+                                <Route path={"characters"}>
                                     <Route index element={<CharactersPage />} />
                                     <Route path={":id"} element={<CharacterDetailPage />} />
                                 </Route>

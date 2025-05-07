@@ -1,11 +1,15 @@
-import {NavLink, Outlet} from "react-router-dom";
+import {NavLink, useOutletContext} from "react-router-dom";
 import CharacterCard from "@/components/layout/character-card";
 import {Suspense} from "react";
-import {rickAndMortyData} from "../../../data/rick-and-morty";
 import LayoutContainer from "@/components/ui/layout-container";
+import {CharacterProps} from "@/types";
+
+interface CharactersContext {
+    characters: CharacterProps[];
+}
 
 const CharactersPage = () => {
-const characters = rickAndMortyData.results;
+    const {characters} = useOutletContext<CharactersContext>();
   return (
       <LayoutContainer>
           <NavLink to={"rick-and-morty"}>
@@ -24,7 +28,6 @@ const characters = rickAndMortyData.results;
                   ))}
               </div>
           </Suspense>
-          <Outlet />
       </LayoutContainer>
   );
 };

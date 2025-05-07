@@ -1,12 +1,17 @@
 import LayoutContainer from "@/components/ui/layout-container";
 import Title from "@/components/ui/title";
-import {Outlet} from "react-router";
+import {Outlet, useOutletContext} from "react-router-dom";
+import {CharacterProps} from "@/types";
 
+interface CharactersContext {
+    characters: CharacterProps[];
+}
 const RickAndMortyLayout = () => {
+    const {characters} = useOutletContext<CharactersContext>();
     return (
         <LayoutContainer>
             <Title>Rick & Morty Universe</Title>
-            <Outlet/>
+            <Outlet context={{characters}}/>
         </LayoutContainer>
     )
 }

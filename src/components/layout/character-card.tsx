@@ -11,7 +11,7 @@ const CharacterCard: FC<ICharacterCard> = ({character}) => {
             : 'bg-[#f0e14a] text-black';
 
     return (
-        <div className="max-w-xs bg-white rounded-2xl border-4 border-[#97ce]
+        <div className="max-w-xs bg-white rounded-2xl border-4 border-[#97ce] h-full
         shadow-xl overflow-hidden font-sans text-[#e4a788]">
 
             <img

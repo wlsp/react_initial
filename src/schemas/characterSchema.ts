@@ -1,8 +1,0 @@
-export const insertCharacterSchema = {
-    name: "name",
-    status: "status",
-    species: "species",
-    type: "type",
-    gender: "gender",
-    image: "image",
-}

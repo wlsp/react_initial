@@ -1,7 +1,7 @@
 import LayoutContainer from "@/components/ui/layout-container";
 import Title from "@/components/ui/title";
 import {HeadingTag} from "@/types";
-import {Link} from "react-router-dom";
+import {Link, Outlet} from "react-router-dom";
 
 const RickAndMortyPage = () => {
     return (
@@ -10,6 +10,7 @@ const RickAndMortyPage = () => {
             <Link to={"./characters"}>
                 Here goes the characters
             </Link>
+            <Outlet />
         </LayoutContainer>
     )
 }

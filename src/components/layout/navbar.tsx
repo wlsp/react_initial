@@ -1,5 +1,5 @@
 import {NavbarProps} from "@/types";
-import {NavLink} from "react-router";
+import {NavLink} from "react-router-dom";
 import Spinner from "@/components/ui/spinner";
 import {cn} from "@/lib/utils";
 import {useCounter} from "@/hooks/userCounter";
