@@ -1,0 +1,20 @@
+{
+  "navItems": [
+    {
+      "link": "Home",
+      "url": "/"
+    },
+    {
+      "link": "Rick & Morty",
+      "url":  "/rick-and-morty"
+    },
+    {
+      "link": "Blog",
+      "url":  "/blog"
+    },
+    {
+      "link": "Counter",
+      "url": "/counter"
+    }
+  ]
+}

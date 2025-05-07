@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Die Zukunft der künstlichen Intelligenz",
+    "subtitle": "Wie KI unsere Welt verändert",
+    "content": "Künstliche Intelligenz hat enorme Fortschritte gemacht. Von Chatbots bis zu autonomen Fahrzeugen – KI ist allgegenwärtig. In diesem Beitrag werfen wir einen Blick auf aktuelle Entwicklungen.",
+    "author": {
+      "name" : "Max Mustermann",
+      "image" : "https://randomuser.me/api/portraits/men/93.jpg"
+    },
+    "image": "https://images.unsplash.com/photo-1581091870622-1c801a4d80cc",
+    "date": "2025-05-05T00:00:00Z",
+    "tags": ["KI", "Technologie", "Zukunft"],
+    "likes": 124
+  },
+  {
+    "title": "Minimalismus im digitalen Zeitalter",
+    "subtitle": "Weniger ist mehr – auch online",
+    "content": "Digitaler Minimalismus bedeutet, sich auf das Wesentliche zu konzentrieren. In einer Welt voller Ablenkungen kann weniger Technik mehr Lebensqualität bedeuten.",
+    "author": {
+      "name": "Lisa Berger",
+      "image": "https://randomuser.me/api/portraits/women/93.jpg"
+    },
+    "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4",
+    "date": "2025-04-28T00:00:00Z",
+    "tags": ["Minimalismus", "Digital", "Lifestyle"],
+    "likes": 87
+  },
+  {
+    "title": "Reisen mit leichtem Gepäck",
+    "subtitle": "Wie du mit nur einem Rucksack um die Welt kommst",
+    "content": "Backpacking und minimalistisches Reisen werden immer beliebter. Dieser Artikel zeigt dir, wie du effizient packst und trotzdem nichts vermisst.",
+    "author": {
+      "name": "Jonas Klein",
+      "image": "https://randomuser.me/api/portraits/men/33.jpg"
+    },
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "date": "2025-03-15T00:00:00Z",
+    "tags": ["Reisen", "Minimalismus", "Backpacking"],
+    "likes": 203
+  },
+  {
+    "title": "Gesunde Ernährung im Alltag",
+    "subtitle": "Schnelle Rezepte für Berufstätige",
+    "content": "Gesunde Ernährung muss nicht kompliziert sein. Hier findest du einfache, schnelle und leckere Rezepte für einen stressfreien Alltag.",
+    "author": {
+      "name":"Miriam Schuster",
+      "image": "https://randomuser.me/api/portraits/women/13.jpg"
+    },
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061",
+    "date": "2025-05-01T00:00:00Z",
+    "tags": ["Ernährung", "Gesundheit", "Rezepte"],
+    "likes": 156
+  },
+  {
+    "title": "Homeoffice richtig gestalten",
+    "subtitle": "Tipps für Produktivität und Wohlbefinden",
+    "content": "Ein gut eingerichteter Arbeitsplatz zu Hause ist entscheidend für produktives Arbeiten. Wir geben dir Tipps zu Ergonomie, Technik und Routinen.",
+    "author": {
+      "name": "Daniel Meier",
+      "image": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    "image": "https://images.unsplash.com/photo-1589820296156-f94e3f0b6b09",
+    "date": "2025-02-20T00:00:00Z",
+    "tags": ["Homeoffice", "Produktivität", "Work-Life-Balance"],
+    "likes": 98
+  },
+  {
+    "title": "Fotografie für Einsteiger",
+    "subtitle": "Die ersten Schritte mit deiner Kamera",
+    "content": "Du möchtest fotografieren lernen? In diesem Blogpost erfährst du, wie du mit einfachen Tricks beeindruckende Fotos machst – ganz ohne Profi-Equipment.",
+    "author": {
+      "name": "Sabine Lehmann",
+      "image": "https://randomuser.me/api/portraits/women/3.jpg"
+    },
+    "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944",
+    "date": "2025-04-10T00:00:00Z",
+    "tags": ["Fotografie", "Hobby", "Einsteiger"],
+    "likes": 174
+  }
+]
